@@ -92,4 +92,29 @@ button:focus-visible {
 .content {
   width: 300px;
 }
-
+ul { 
+  list-style-type: none; 
+  padding: 0; 
+} 
+li { 
+  margin: 10px 0; 
+} 
+nav { 
+  background-color: #282c34; 
+  padding: 10px; 
+  margin-bottom: 250px;
+  position: relative;
+  left: 270px;
+} 
+nav ul { 
+  display: flex; 
+  justify-content: space-around; 
+} 
+nav a { 
+  color: #61dafb; 
+  text-decoration: none; 
+  padding: 5px;
+} 
+nav a:hover { 
+  text-decoration: underline;
+}
